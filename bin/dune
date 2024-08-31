@@ -1,0 +1,28 @@
+(executables
+ (names
+  main
+  map_reduce
+  sleeping_barber
+  cigarette_smokers
+  dining_philosophers
+  benchmark
+  sum
+  partition_problem
+  subset_sum
+  erathostenes_sieve
+  sleep)
+ (public_names
+  main
+  map_reduce
+  sleeping_barber
+  cigarette_smokers
+  dining_philosophers
+  benchmark
+  sum
+  partition_problem
+  subset_sum
+  erathostenes_sieve
+  sleep)
+ (libraries linda)
+ (preprocess
+  (pps ppx_jane)))

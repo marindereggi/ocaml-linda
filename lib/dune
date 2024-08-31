@@ -1,0 +1,4 @@
+(library
+ (name linda)
+ (public_name linda)
+ (libraries domainslib))
